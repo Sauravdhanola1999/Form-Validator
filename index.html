@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Contest</title>
+    <style>
+        label {
+    display: block; 
+    }
+
+    #signupForm {
+    position: absolute; 
+    top: 50%; 
+    left: 50%; 
+    transform: translate(-50%, -50%); 
+    width: 400px; 
+    padding: 25px; 
+    background-color: #f9f9f9; 
+    box-shadow: 1px 4px 10px rgba(20, 136, 220, 0.1); 
+    border-radius: 8px;
+    }
+    </style>
+
+</head>
+<body>
+
+    <form id="signupForm" action="#">
+        <div id="emailDiv">
+            <label for="Email">Email</label>
+            <input id="email" type="text" placeholder="Exaple@email.com">
+            <!-- <p id="emailError">Make sure email is more than 3 characters and has @ and a . </p> -->
+        </div>
+
+        <div id="passDiv">
+            <label for="password">Password</label>
+            <input id="password" type="password" placeholder="Your Password">
+            <!-- <p id="passwordError">Make sure password is more than 8 characters.</p> -->
+        </div>
+
+        <button id="button">Submit</button>
+    </form>
+
+
+
+    <script src="./app.js"></script>
+</body>
+</html>
